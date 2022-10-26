@@ -1,5 +1,7 @@
 # docker-zx
 
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/peschee/zx?style=flat-square)
+
 Dockerfile for running zx scripts. The container is based on the official Alpine Linux [Node](https://hub.docker.com/_/node) image. Some additional tools are installed inside the container:
 
 - [`curl`](https://curl.se/) - because everybody needs a swiss army knife
