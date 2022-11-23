@@ -4,6 +4,7 @@
 
 Dockerfile for running zx scripts. The container is based on the official Alpine Linux [Node](https://hub.docker.com/_/node) image. Some additional tools are installed inside the container:
 
+- `bash` - because of https://github.com/google/zx/issues/524
 - [`curl`](https://curl.se/) - because everybody needs a swiss army knife
 - [`docker`](https://www.docker.com/) - in order to be able to run other containers
 - [`skopeo`](https://github.com/containers/skopeo) - because everybody needs a swiss army knife for docker
