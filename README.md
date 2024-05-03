@@ -26,5 +26,6 @@ await $`echo Hello, ${name}.`;
 - Mount `example.mjs` path and run:
 
 ```bash
-docker run --rm -v "$(pwd):/tmp" peschee/docker-zx /tmp/example.mjs
+docker build -t docker-zx .
+docker run --rm -v "$(pwd):/tmp" docker-zx /tmp/example.mjs
 ```
