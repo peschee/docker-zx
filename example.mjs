@@ -1,5 +1,5 @@
 #!/usr/bin/env zx
 
-const name = 'Foo';
+const name = "Foo";
 
-await $`echo Hello, ${name}.`;
+echo`Hello, ${name}.`;

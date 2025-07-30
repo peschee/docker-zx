@@ -20,7 +20,7 @@ This container uses [google/zx](https://github.com/google/zx) as an `entrypoint`
 
 const name = 'Foo';
 
-await $`echo Hello, ${name}.`;
+echo`Hello, ${name}.`;
 ```
 
 - Mount `example.mjs` path and run:
