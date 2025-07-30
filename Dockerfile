@@ -1,6 +1,6 @@
 FROM node:22-alpine
 
-ENV ZX_VERSION="8.0.2"
+ENV ZX_VERSION="8.7.2"
 
 RUN apk add --no-cache bash curl docker skopeo \
     && npm config set update-notifier false \
